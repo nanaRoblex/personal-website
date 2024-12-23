@@ -14,7 +14,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://roblexNana.github.io/personal-website",
+  "homepage": "https://roblexNana.github.io",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "lucide-react": "^0.468.0",
