@@ -9,9 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist",
+    "clean": "rm -rf dist"
   },
-  "homepage": "https://roblexNana.github.io/personal-website",
+  "homepage": "https://nanaRoblex.github.io/personal-website",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "lucide-react": "^0.468.0",
