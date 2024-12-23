@@ -36,22 +36,22 @@ const App = () => {
     // Banner images with predefined details
     const bannerData: BannerData[] = [
       {
-        image: '/images/hpc-banner.webp',
+        image: '../images/hpc-banner.webp',
         title: 'High-performance Computing & Computer Architecture',
         description: 'Exploring innovative solutions in computational technologies'
       },
       {
-        image: '/images/ai-banner.webp',
+        image: '../images/ai-banner.webp',
         title: 'Artificial Intelligence & Machine Learning',
         description: 'Pushing the boundaries of intelligent computational systems'
       },
       {
-        image: '/images/green-banner.jpg',
+        image: '../images/green-banner.jpg',
         title: 'Sustainable Computing & Energy-aware Computing',
         description: 'Developing eco-friendly technological solutions'
       },
       {
-        image: '/images/cloud-banner.webp',
+        image: '../images/cloud-banner.webp',
         title: 'Edge & Cloud Computing',
         description: 'Innovating distributed computing architectures'
       }
@@ -158,7 +158,7 @@ const App = () => {
           <div className="flex justify-center">
             <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg border-4 border-blue-500">
               <img 
-                src="/images/cropped-img_crop.jpg"  // Replace with your actual photo path
+                src="../images/cropped-img_crop.jpg"  // Replace with your actual photo path
                 alt="Roblex Nana Tchakoute"
                 className="w-full h-full object-cover object-center"
               />
@@ -402,7 +402,7 @@ const App = () => {
           year: 2024,
           doi: "10.1109/SBAC-PADW64858.2024.00016",
           pdfLink: "https://minesparis-psl.hal.science/hal-04819121v1/file/Wamca2024_Roblex.pdf",
-          slidesLink: "/publications/WAMCA/WAMCA_Experimental Study of Power Consumption of Basic Parallel Programs.pdf"
+          slidesLink: "../publications/WAMCA/WAMCA_Experimental Study of Power Consumption of Basic Parallel Programs.pdf"
         },
         {
           type: 'conference',
@@ -416,7 +416,7 @@ const App = () => {
           year: 2024,
           doi: "10.1109/SBAC-PADW64858.2024.00014",
           pdfLink: "https://minesparis-psl.hal.science/hal-04819054v1/file/Submission_EA2P_WAMCA.pdf",
-          slidesLink: "/publications/WAMCA/WAMCA_A Flexible Operational Framework for Energy Profiling of Programs.pdf"
+          slidesLink: "../publications/WAMCA/WAMCA_A Flexible Operational Framework for Energy Profiling of Programs.pdf"
         }
       ],
       internationalJournals: [
@@ -451,24 +451,24 @@ const App = () => {
           title: "Software-based energy measurement as first step for power-aware application optimization",
           event: "PhD Student TTI.5 Webinar",
           date: "December 2024",
-          pdfLink: "/publications/talks/Webinar_TTI.5_18-12-2024.pdf",
-          slidesLink: "/publications/talks/Webinar_TTI.5_18-12-2024.pdf"
+          pdfLink: "../publications/talks/Webinar_TTI.5_18-12-2024.pdf",
+          slidesLink: "../publications/talks/Webinar_TTI.5_18-12-2024.pdf"
         },
         {
           type: 'talk',
           title: "A Flexible Tool For Energy Measurmeent Of Programns",
           event: "Journée des doctorant de deuxième année : ED ISMME Mines Paris - PSL",
           date: "Juin 2024",
-          pdfLink: "/publications/talks/NANA_TCHAKOUTE_Roblex_CRI-MINES-PARIS_Poster.pdf",
-          slidesLink: "/publications/talks/NANA_TCHAKOUTE_Roblex_CRI-MINES-PARIS_Poster.pdf"
+          pdfLink: "../publications/talks/NANA_TCHAKOUTE_Roblex_CRI-MINES-PARIS_Poster.pdf",
+          slidesLink: "../publications/talks/NANA_TCHAKOUTE_Roblex_CRI-MINES-PARIS_Poster.pdf"
         },
         {
           type: 'talk',
           title: "Software-based energy measurement as first step for power-aware application optimization",
           event: "Matinée numérique éco responsable",
           date: "Juin 2024",
-          pdfLink: "/publications/talks/Software-based_energy_measurement_as_first_step_for_power-aware_application_optimization.pdf",
-          slidesLink: "/publications/talks/Software-based_energy_measurement_as_first_step_for_power-aware_application_optimization.pdf"
+          pdfLink: "../publications/talks/Software-based_energy_measurement_as_first_step_for_power-aware_application_optimization.pdf",
+          slidesLink: "../publications/talks/Software-based_energy_measurement_as_first_step_for_power-aware_application_optimization.pdf"
         },
         {
           type: 'talk',
@@ -483,8 +483,8 @@ const App = () => {
           title: "Intelligence artificielle haute performance sensible au carbone",
           event: "The Transition Institute 1.5 : Les enjeux sécuritaires des changements climatiques",
           date: "March 2023",
-          pdfLink: "/publications/talks/A-796-POSTER.pdf",
-          slidesLink: "/publications/talks/A-796-POSTER.pdf"
+          pdfLink: "../publications/talks/A-796-POSTER.pdf",
+          slidesLink: "../publications/talks/A-796-POSTER.pdf"
         }
       ]
     };
