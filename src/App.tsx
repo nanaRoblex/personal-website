@@ -402,7 +402,7 @@ const App = () => {
           year: 2024,
           doi: "10.1109/SBAC-PADW64858.2024.00016",
           pdfLink: "https://minesparis-psl.hal.science/hal-04819121v1/file/Wamca2024_Roblex.pdf",
-          slidesLink: "/personal-website/publications/WAMCA/Experimental_Study_of_Power_Consumption_of_Basic_Parallel_Programs.pdf"
+          slidesLink: "/personal-website/publications/WAMCA2024/Experimental_Study_of_Power_Consumption_of_Basic_Parallel_Programs.pdf"
         },
         {
           type: 'conference',
@@ -416,7 +416,7 @@ const App = () => {
           year: 2024,
           doi: "10.1109/SBAC-PADW64858.2024.00014",
           pdfLink: "https://minesparis-psl.hal.science/hal-04819054v1/file/Submission_EA2P_WAMCA.pdf",
-          slidesLink: "/personal-website/publications/WAMCA/A_Flexible_Operational_Framework_for_Energy_Profiling_of_Programs.pdf"
+          slidesLink: "/personal-website/publications/WAMCA2024/A_Flexible_Operational_Framework_for_Energy_Profiling_of_Programs.pdf"
         }
       ],
       internationalJournals: [
