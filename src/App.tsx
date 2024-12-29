@@ -158,7 +158,7 @@ const App = () => {
           <div className="flex justify-center">
             <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg border-4 border-blue-500">
               <img 
-                src="../images/cropped-img_crop.jpg"  // Replace with your actual photo path
+                src="/personal-website/images/cropped-img_crop.jpg"  // Replace with your actual photo path
                 alt="Roblex Nana Tchakoute"
                 className="w-full h-full object-cover object-center"
               />
@@ -402,7 +402,7 @@ const App = () => {
           year: 2024,
           doi: "10.1109/SBAC-PADW64858.2024.00016",
           pdfLink: "https://minesparis-psl.hal.science/hal-04819121v1/file/Wamca2024_Roblex.pdf",
-          slidesLink: "/personal-website/publications/WAMCA/WAMCA_Experimental Study of Power Consumption of Basic Parallel Programs.pdf"
+          slidesLink: "/personal-website/publications/WAMCA/Experimental_Study_of_Power_Consumption_of_Basic_Parallel_Programs.pdf"
         },
         {
           type: 'conference',
@@ -416,7 +416,7 @@ const App = () => {
           year: 2024,
           doi: "10.1109/SBAC-PADW64858.2024.00014",
           pdfLink: "https://minesparis-psl.hal.science/hal-04819054v1/file/Submission_EA2P_WAMCA.pdf",
-          slidesLink: "/personal-website/publications/WAMCA/WAMCA_A Flexible Operational Framework for Energy Profiling of Programs.pdf"
+          slidesLink: "/personal-website/publications/WAMCA/A_Flexible_Operational_Framework_for_Energy_Profiling_of_Programs.pdf"
         }
       ],
       internationalJournals: [
@@ -443,6 +443,14 @@ const App = () => {
           conference: "Preprints & research reports",
           year: 2023,
           pdfLink: "https://arxiv.org/pdf/2309.08615"
+        },
+        {
+          type: 'others',
+          title: "Caractérisation et modélisation d'architectures ARM 64 bits TX2 pour des applications et algorithmes de recommandation",
+          authors: ["R. Nana Tchakoute"],
+          conference: "Master Thesis report",
+          year: 2022,
+          pdfLink: "/personal-website/publications/others/Memoire_Master_Roblex_NANA.pdf"
         }
       ],
       talks: [
